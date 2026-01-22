@@ -3,3 +3,8 @@ body {
   background: #f4f4f4;
   padding: 40px;
 }
+
+img {
+  display: block;
+  margin-bottom: 20px;
+}
