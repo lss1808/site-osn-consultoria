@@ -1,33 +1,158 @@
 <!DOCTYPE html>
-<html lang='pt-br'>
+<html lang="pt-BR">
 <head>
-  <meta charset='UTF-8'>
-  <title>OSN Consulting</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>OSN Consulting | Consultoria Industrial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0b3c5d, #1f7a8c);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #0b3c5d;
+            margin-top: 0;
+        }
+
+        .contact {
+            background-color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 4px solid #1f7a8c;
+        }
+
+        .contact h2 {
+            margin-top: 0;
+            color: #0b3c5d;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contact a {
+            color: #1f7a8c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #0b3c5d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-  <header class="header">
-  <img src="img/logo-osn.jpg" alt="OSN Consulting" class="logo">
+
+<header>
+    <img src="logo.png" alt="OSN Consulting">
+    <h1>OSN Consulting</h1>
+    <p>
+        Consultoria estratégica e operacional para a indústria, com foco inicial
+        na indústria de telhas e materiais de construção.
+    </p>
 </header>
-<section class="contact">
-  <h2>Contato</h2>
 
-  <p>
-    📞 Telefone / WhatsApp:
-    <a href="https://wa.me/558196038598" target="_blank">
-      +55 81 9603-8598
-    </a>
-  </p>
+<section>
+    <div class="cards">
+        <div class="card">
+            <h3>Consultoria Industrial</h3>
+            <p>
+                Diagnóstico de processos produtivos, redução de custos,
+                aumento de eficiência e padronização operacional.
+            </p>
+        </div>
 
-  <p>
-    ✉️ Email:
-    <a href="mailto:contato@osnconsulting.com">
-      contato@osnconsulting.com
-    </a>
-  </p>
+        <div class="card">
+            <h3>Indústria de Telhas</h3>
+            <p>
+                Especialização em processos industriais de telhas cerâmicas e
+                de concreto, produtividade, perdas e controle de qualidade.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Gestão e Indicadores</h3>
+            <p>
+                Implantação de indicadores de desempenho (KPIs),
+                controle financeiro e apoio à tomada de decisão.
+            </p>
+        </div>
+    </div>
 </section>
-  <h1>OSN Consulting</h1>
-  <p>Site em construção.</p>
+
+<section class="contact">
+    <h2>Contato</h2>
+    <p>📞 Telefone / WhatsApp:</p>
+    <p>
+        <a href="https://wa.me/558196038598" target="_blank">
+            +55 81 9603-8598
+        </a>
+    </p>
+
+    <p>📧 Email:</p>
+    <p>
+        <a href="mailto:contato@osnconsulting.com">
+            contato@osnconsulting.com
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 OSN Consulting — Consultoria Industrial
+</footer>
+
 </body>
 </html>
 
